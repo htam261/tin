@@ -1,0 +1,150 @@
+/* CSS Document */
+* {
+	margin: 0;
+	padding:0;
+}
+/* all part */
+html, body {
+	margin:0px auto;
+	padding: 0px;
+	color:#333;
+	background:#fff;
+	font-size: 14px;
+	line-height:16px;
+	font-family:Arial, sans-serif;
+	min-width:1300px;
+}
+div {
+	display:block;
+}
+article, aside, footer, header, hgroup, main, nav, section {
+	display: block;
+}
+.nav {
+	display:block;
+}
+/* header */
+.header {
+	margin: 0px;
+	padding: 0px;
+	display:block;
+	overflow:hidden;
+	width:1000px;
+	margin: 0px auto;
+}
+.tin247_logo {
+	float: left;
+	margin: 5px;
+	height:90px;
+}
+a {
+	color: #004992;
+	text-decoration:none;
+}
+a:-webkit-any-link {
+	color: -webkit-link;
+	text-decoration: underline;
+	cursor: auto;
+}
+/* head img */
+.top_head_ad {
+	margin: 5px;
+	height:90px;
+	overflow:hidden;
+	text-align:center;
+}
+/* thanh nav */
+.nav {
+	width:100%;
+	margin:0px;
+	padding:0px;
+	background-color:#ca0002;
+	height: 40px;
+	background-color:#d7dbda;
+	position:relative;
+}
+.nav_top {
+	background-color:#c0392b;
+	display:table;
+	height:40px;
+	margin:0px;
+	padding:0px;
+	width:100%;
+}
+ul, menu, dir {
+	display:block;
+	list-style-type:disc;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+}
+ul, li {
+	margin: 0px;
+	padding:0px;
+	list-style:none;
+}
+li {
+	display:list-item;
+	text-align:-webkit-match-parent;
+}
+/* display: table-cell => thanh tung o */
+.nav_top>li {
+	display:table-cell; 
+	height: 40px;
+	vertical-align: top;
+	background-image:url(nav_d.jpg);
+	background-position-x:left;
+	background-position-y: 50%;
+	background-repeat-x:no-repeat;
+	background-repeat-y:no-repeat;
+}
+.nav_top a {
+	color: #fff;
+	display:block;
+	height:40px;
+	line-height:40px;
+	padding:0px;
+	text-transform:uppercase;
+	text-align:center;
+	white-space:nowrap;
+	width:100%;
+	text-decoration:none;
+}
+a {
+	color: #004992;
+	text-decoration:none;
+}
+.nav_top a:hover, .nav_top a.active {
+	background-color:#980a0a;
+	color:#fff;
+}
+.menu {
+	width:40px;
+}
+.menu_btn {
+	width: 40px;
+	height: 40px;
+	background-image:url(nav.png);
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-repeat-x:no-repeat;
+	background-repeat-y:no-repeat;
+	background-size: 20px 20px;
+}
+/* ==>> nav_bottom */
+.nav_bottom {
+	display:none;
+	position:absolute;
+	top:40px;
+	right: 0px;
+	z-index: 1000;
+	background-color:#edeeed;
+	width:240px;
+	border-shadow: -1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+ol ul, ul ol, ul ul, ol ol {
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+}
